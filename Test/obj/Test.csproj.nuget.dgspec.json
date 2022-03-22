@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\Repos\\Reprograma\\Test\\Test\\Test.csproj": {}
+    "C:\\Source\\Repos\\test\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Source\\Repos\\Reprograma\\Test\\Test\\Test.csproj": {
+    "C:\\Source\\Repos\\test\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\Repos\\Reprograma\\Test\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Source\\Repos\\test\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Source\\Repos\\Reprograma\\Test\\Test\\Test.csproj",
+        "projectPath": "C:\\Source\\Repos\\test\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\joaopma\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\Repos\\Reprograma\\Test\\Test\\obj\\",
+        "outputPath": "C:\\Source\\Repos\\test\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -25,7 +25,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -36,8 +36,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +48,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace Test.v1.Controllers
 {
@@ -7,13 +6,8 @@ namespace Test.v1.Controllers
     [Route("api/[controller]")]
     public class UsuarioController : ControllerBase
     {
-        private readonly ILogger<UsuarioController> _logger;
         //TODO
         //Implementar camada de servico
-        public UsuarioController(ILogger<UsuarioController> logger)
-        {
-            _logger = logger;
-        }
 
         /// <summary>
         /// Este endpoint deve consultar as interessadas cadastradas
